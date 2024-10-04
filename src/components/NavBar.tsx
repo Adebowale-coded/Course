@@ -23,7 +23,7 @@ const NavBar = ({bg}:props) => {
                <p className='text-white'>Browse</p> 
             </div>
             
-            <ul className={`transition-all duration-[1s] flex gap-[30px] items-center  h-0 ${NavClicked ? 'flex-col translate-y-[0px] h-[200px]' : 'flex-col translate-y-[-450px]'} md:flex `}>
+            <ul className={`transition-all duration-[1s] flex gap-[30px] items-center  h-0 ${NavClicked ? 'flex-col translate-y-[0px] h-[200px]' : 'flex-col lg:flex-row translate-y-[-450px] lg:translate-y-0'} md:flex `}>
                 <li className='text-white'>Become an Instructor</li>
                 <img src={shopping} alt="" className='' />
                 <img src={Icon} alt="" className='' />
