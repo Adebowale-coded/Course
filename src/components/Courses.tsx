@@ -21,9 +21,9 @@ export interface CoursesProsps {
 const Courses = ({ imgSrc, userIcon, starIcon, CourseName, StudioName, formerPrice, originalPrice, rating, courseDetails }: CoursesProsps) => {
 
     return (
-        <div className='font-[poppins] w-[full]'>
+        <div className='font-[poppins] w-full shadow-xl p-[10px]'>
             <img src={imgSrc} alt="" />
-            <span className='font-[500]'>{CourseName}</span>
+            <span className='font-[500] text-[13px]'>{CourseName}</span>
             <div className='gap-[10px] flex'>
                 <img src={userIcon} alt="" className='object-contain' />
                 <span className='text-[#3DCBB1]'>{StudioName}</span>

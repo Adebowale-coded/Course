@@ -92,7 +92,7 @@ const Home = () => {
                     </ul>
                 </div>
 
-                <div className='flex flex-wrap justify-center items-center gap-[20px] pt-[20px] mx-auto'>
+                <div className='grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-[20px] pt-[20px] mx-auto'>
                     <Courses
                         imgSrc={FirstImg}
                         userIcon={FifthImg}
@@ -139,7 +139,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className='bg-[#1B283F] p-[20px] md:p-[60px] max-w-full md:max-w-[1200px] mx-auto mt-[40px] rounded-[10px]'>
+            <section className='bg-[#1B283F] p-[20px] md:p-[60px] max-w-full md:max-w-[1200px] mx-auto mt-[40px] rounded-[10px] font-[poppins]'>
                 <h1 className='text-white text-[18px] md:text-[20px] font-[500]'>Join Klevr now to get 35% off</h1>
                 <p className='w-full md:w-full text-[16px] md:text-[20px] pt-[10px] text-white font-[100]'>
                     With our responsive themes and mobile and desktop apps, enjoy a seamless experience on any device so will your blog the best visitors.
@@ -154,14 +154,14 @@ const Home = () => {
                 <img src={Rhone} alt='' className='absolute top-[-280px] left-[867px] h-[280px]' />
             </div>
 
-            <section className='mt-[20px]  lg:p-[60px]'>
-                <h1 className='font-[poppins] font-[1000] text-[20px] md:text-[25px] text-center'>
+            <section className='mt-[20px]  lg:p-[60px] font-[poppins]'>
+                <h1 className='font-[1000] text-[20px] md:text-[25px] text-center'>
                     Trending Courses
                 </h1>
 
                 <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-[20px] mt-[30px] lg:w-[1200px] mx-auto'>
                     <div className='relative'>
-                        <div className='h-[400px] md:h-[500px] lg:h-[631px] p-[20px] bg-grid-bg bg-no-repeat bg-cover bg-center rounded-[20px] lg:rounded-[30px] w-full'>
+                        <div className='h-[400px] md:h-[500px] lg:h-full p-[20px] bg-grid-bg bg-no-repeat bg-cover bg-center rounded-[20px] lg:rounded-[30px] w-full'>
                             <div className='text-white absolute bottom-[20px] md:bottom-[30px] lg:bottom-[50px] left-[20px] w-full lg:w-[526px]'>
                                 <label className='text-[#F9F9F9]'>Ana Kursova</label>
                                 <p className='text-[20px] md:text-[25px] lg:text-[30px] font-[500]'>
@@ -228,7 +228,7 @@ const Home = () => {
             <section className='p-[20px] lg:w-[1200px] mx-auto '>
                 <h1 className='font-[1000] text-[20px] text-center'>Upcoming Webinar</h1>
 
-                <div className='mt-[30px] grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 gap-[20px] '>
+                <div className='mt-[30px] grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 gap-[20px] justify-items-center '>
                     <Courses
                         imgSrc={Man}
                         userIcon={FifthImg}
