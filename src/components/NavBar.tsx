@@ -23,13 +23,13 @@ const NavBar = ({bg}:props) => {
                <p className='text-white'>Browse</p> 
             </div>
             
-            <ul className='flex gap-[30px] items-center'>
+            <ul className='flex gap-[30px] items-center lg:hidden'>
                 <li className='text-white'>Become an Instructor</li>
                 <img src={shopping} alt="" className='' />
                 <img src={Icon} alt="" className='' />
                 <img src={girl} alt="" />
             </ul>
-            <img width="32" height="32" src="https://img.icons8.com/stamp/32/FFFFFF/menu.png" onClick={handleClick} alt="menu" className='lg:hidden'/>
+            <img width="32" height="32" src="https://img.icons8.com/stamp/32/FFFFFF/menu.png" onClick={handleClick} alt="menu" className='lg:hidden md:hidden cursor-pointer'/>
         </nav>
     </>
   )
